@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.logo {
+    margin-top: 30px;;
+}
+
+.container__menu {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.container__titulo {
+    display: flex;
+}
+
+.container__titulo .container__bowl {
+    display:block;
+    width:30%;
+    position: relative;
+    left:150px;
+}
+
+.lista__botoes {
+    display:flex;
+    list-style-type: none;
+
+}
+
+.lista__botoes .lista__pedido {
+    background-color: black;
+    color: white;
+    margin:10px;
+}
+
+.lista__botoes .lista__contato {
+    background-color: black;
+    color: white;
+    margin:10px;
+
+}
